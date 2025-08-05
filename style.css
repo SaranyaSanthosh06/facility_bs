@@ -1,0 +1,20 @@
+:root {
+  --primaryColor: #be9c79;
+  --secondaryColor: #666666;
+  --tertiaryColor: #333333;
+  --ffPrimary: "Nunito Sans", serif;
+  --ffSecondary: "Merienda", serif;
+}
+
+body {
+  font-family: var(--ffPrimary);
+}
+
+h1,
+h2 {
+  font-family: var(--ffSecondary);
+}
+
+p {
+  color: var(--secondaryColor);
+}
