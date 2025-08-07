@@ -18,3 +18,8 @@ h2 {
 p {
   color: var(--secondaryColor);
 }
+.btn {
+  font-family: "Nunito", sans-serif;
+  background-color: #BE9C79;
+  color: #ffffff;
+}
