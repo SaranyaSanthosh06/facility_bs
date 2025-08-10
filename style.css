@@ -19,7 +19,12 @@ p {
   color: var(--secondaryColor);
 }
 .btn {
+  font-size: 1rem;
   font-family: "Nunito", sans-serif;
   background-color: #BE9C79;
+  padding: 1rem 2rem;
   color: #ffffff;
+  border: none;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
 }
