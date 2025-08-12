@@ -18,13 +18,20 @@ h2 {
 p {
   color: var(--secondaryColor);
 }
-.btn {
-  font-size: 1rem;
-  font-family: "Nunito", sans-serif;
-  background-color: #BE9C79;
-  padding: 1rem 2rem;
-  color: #ffffff;
-  border: none;
-  margin-bottom: 1rem;
-  transition: background-color 0.3s ease;
+
+
+.hero {
+  background: linear-gradient(90deg, white, transparent 70%), url(./assests/images/home-bg.jpg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 22rem 0rem;
+}
+
+button, .card i{
+    background-color: #be9c79;
+    color:white;
+}
+button:hover{
+background: #635d5d;
 }
